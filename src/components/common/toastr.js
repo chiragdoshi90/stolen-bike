@@ -1,0 +1,20 @@
+import React, { Component } from 'react';
+import { ToastContainer } from 'react-toastify';
+export class Toastr extends Component {
+
+  render() {
+    return (
+      <ToastContainer
+      position="top-right"
+      autoClose={5000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover />
+    )
+  }
+}
+

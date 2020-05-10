@@ -1,0 +1,68 @@
+.App {
+  padding: 10px;
+}
+
+.incidents {
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.incident-box {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.bike-img {
+  width: 100px;
+  height: 100px;
+}
+.detail-bike-img{
+  width: 900px;
+  height: 450px;
+}
+
+.header-title{
+  font-size: 56px;
+}
+
+.header-sub-title{
+  font-size: 20px;
+}
+.list-page {
+  margin-top: 30px;
+}
+
+.pagination {
+  position: absolute;
+  left: 35%;
+}
+
+.total-count {
+  float: right;
+  margin-right: 62px;
+}
+
+.page-dropdown{
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.incident-title{
+  color: blue;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.incident-address {
+  margin-top: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.detail-title {
+  font-size: 32px;
+}
